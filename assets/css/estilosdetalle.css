@@ -1,0 +1,137 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fdfbfb, #f2f2f2); /* Fondo pastel claro */
+    color: #333;
+}
+
+#header {
+    background: rgba(34, 30, 31, 0.98);
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #d52349;
+}
+
+#header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2em;
+}
+
+#header p {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+#header .button {
+    background: #d52349;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#header .button:hover {
+    background: #e53359;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.product-container {
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.product-image {
+    flex: 1;
+    padding: 1.5em;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-details {
+    flex: 2;
+    padding: 2em;
+    color: #333;
+}
+
+.product-details h2 {
+    margin: 0 0 0.5em;
+    font-size: 1.8em;
+    color: #58a6ff;
+}
+
+.product-details h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+    color: #ff6347;
+}
+
+.product-details p {
+    margin: 1em 0;
+    line-height: 1.8em;
+    font-size: 1.1em;
+}
+
+.product-details ul {
+    margin: 1em 0;
+    padding-left: 1.5em;
+    list-style: disc;
+}
+
+.product-details ul li {
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.product-details .button-buy {
+    display: inline-block;
+    margin-top: 1em;
+    background: #d52349;
+    color: #ffffff;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.product-details .button-buy:hover {
+    background: #e53359;
+}
+
+#footer {
+    text-align: center;
+    padding: 1em;
+    background: #252122;
+    color: #858484;
+    margin-top: 2em;
+}
+
+#footer p {
+    margin: 0;
+}
