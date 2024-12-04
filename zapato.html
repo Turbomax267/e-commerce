@@ -1,27 +1,52 @@
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
-    <title>Zapato - Detalles del Producto</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatos - Detalles del Producto</title>
+    <link rel="stylesheet" href="assets/css/estilosdetalle.css"> <!-- Enlace al CSS -->
 </head>
 <body>
     <div id="page-wrapper">
+        <!-- Header -->
         <header id="header">
-            <h1>Detalles del Zapato</h1>
-            <a href="../index.html" class="button">Volver al Catálogo</a>
+            <h1>Detalles de los Zapatos</h1>
+            <p>Elegancia y confort para cualquier ocasión formal.</p>
+            <a href="index.html" class="button">Volver al Catálogo</a>
         </header>
+
+        <!-- Main Content -->
         <section id="main">
-            <div class="container">
-                <div class="box">
-                    <header>
-                        <h2>Zapato</h2>
-                        <h3>Precio: S/200</h3>
-                    </header>
-                    <img src="../images/zapato.jpg" alt="Zapato" style="width: 100%; height: auto;" />
-                    <p>Este elegante zapato de vestir negro es la opción perfecta para cualquier ocasión formal...</p>
+            <div class="product-container">
+                <!-- Imagen del Producto -->
+                <div class="product-image">
+                    <img src="images/zapato.jpg" alt="Zapato">
+                </div>
+
+                <!-- Detalles del Producto -->
+                <div class="product-details">
+                    <h2>Zapato Elegante Negro</h2>
+                    <h3>Precio: S/200</h3>
+                    <p>
+                        Este elegante zapato de vestir negro es la opción perfecta para cualquier ocasión formal o de negocios. Con un diseño clásico y sofisticado, está confeccionado con materiales de alta calidad que garantizan durabilidad y confort durante todo el día. Su acabado en cuero negro brillante le da un toque de distinción, mientras que su suela antideslizante asegura estabilidad en cada paso.
+                    </p>
+                    <ul>
+                        <li>Material: Cuero genuino de alta calidad.</li>
+                        <li>Suela: Antideslizante y resistente.</li>
+                        <li>Color: Negro brillante.</li>
+                        <li>Disponible en tallas: 39-45.</li>
+                    </ul>
+                    <a href="compra.html" class="button-buy">Comprar Ahora</a>
                 </div>
             </div>
         </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <p>&copy; 2023 Tienda de Estilos. Todos los derechos reservados.</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

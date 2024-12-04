@@ -4,26 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abrigo - Detalles del Producto</title>
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/estilosdetalle.css"> <!-- Enlace al CSS -->
 </head>
 <body>
     <div id="page-wrapper">
+        <!-- Header -->
         <header id="header">
             <h1>Detalles del Abrigo</h1>
-            <a href="../index.html" class="button">Volver al Catálogo</a>
+            <p>Encuentra la mejor opción para los días fríos con estilo y confort.</p>
+            <a href="index.html" class="button">Volver al Catálogo</a>
         </header>
+
+        <!-- Main Content -->
         <section id="main">
-            <div class="container">
-                <div class="box">
-                    <header>
-                        <h2>Abrigo</h2>
-                        <h3>Precio: S/150</h3>
-                    </header>
-                    <img src="../images/abrigo.jpg" alt="Abrigo" style="width: 100%; height: auto;" />
-                    <p>Este elegante abrigo con cinturón es el complemento perfecto para los días fríos...</p>
+            <div class="product-container">
+                <!-- Imagen del Producto -->
+                <div class="product-image">
+                    <img src="images/abrigo.jpg" alt="Abrigo">
+                </div>
+
+                <!-- Detalles del Producto -->
+                <div class="product-details">
+                    <h2>Abrigo Elegante</h2>
+                    <h3>Precio: S/150</h3>
+                    <p>
+                        Este elegante abrigo con cinturón es el complemento perfecto para los días fríos, aportando estilo y comodidad en cualquier ocasión. 
+                        Confeccionado con materiales de alta calidad, este abrigo combina diseño y funcionalidad con un corte favorecedor que se ajusta a la figura 
+                        gracias a su cinturón ajustable.
+                    </p>
+                    <ul>
+                        <li>Material: Lana y poliéster de alta calidad.</li>
+                        <li>Corte ajustado con cinturón para mayor estilo.</li>
+                        <li>Ideal para clima frío.</li>
+                        <li>Color: Gris carbón.</li>
+                        <li>Disponible en tallas S, M, L y XL.</li>
+                    </ul>
+                    <a href="compra.html" class="button-buy">Comprar Ahora</a>
                 </div>
             </div>
         </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <p>&copy; 2023 Tienda de Estilos. Todos los derechos reservados.</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
